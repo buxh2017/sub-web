@@ -232,7 +232,10 @@ export default {
           Trojan: "trojan",
           Surge3: "surge&ver=3",
         },
-        backendOptions: [{ value: "http://127.0.0.1:25500/sub?" }],
+        backendOptions: [
+          { value: "https://wk-psub.buxh.dpdns.org/sub?" },
+          { value: "http://127.0.0.1:25500/sub?" },
+        ],
         remoteConfig: [
           {
             label: "universal",
