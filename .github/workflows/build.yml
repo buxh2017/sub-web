@@ -1,8 +1,9 @@
 name: Build
 
 on:
-  push:
-    branches: [ master, dev ]
+  # push:
+  #   branches: [ master, dev ]
+  workflow_dispatch:  # 只允许手动触发
 
 jobs:
 
